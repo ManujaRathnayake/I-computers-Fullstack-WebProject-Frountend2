@@ -10,6 +10,7 @@ import Homepage from '../pages/homepage.jsx'
 import Productpage from '../pages/productpage.jsx'
 import AdminPage from '../pages/adminPage.jsx'
 import Test from '../pages/Test.jsx'
+import LoginPage from '../pages/loginpage.jsx'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
               <Route path="/products" element={<Productpage />} />
               <Route path="/admin/*" element={<AdminPage />} />
               <Route path="/test" element={<Test />} />
+              <Route path="/login" element={<LoginPage />} />
             </Routes>
           </div>
 
